@@ -84,4 +84,34 @@
       font-size: 1.2rem;
     }
   }
+  @media (max-width: 1024px) {
+    .hero-container {
+      padding: 0;
+      h1 {
+        font-size: 3.5rem;
+      }
+      img {
+        z-index: -1;
+        margin-top: 4rem;
+        margin-right: 0rem;
+        width: 18rem;
+      }
+      div {
+        img {
+          width: 6rem;
+          margin-top: -2rem;
+        }
+      }
+    }
+    .card-container {
+      .grid-container {
+        .card {
+          padding: 5rem;
+        }
+      }
+    }
+    .about-container {
+      height: 30vh;
+    }
+  }
 }

@@ -19,7 +19,7 @@ const Landing = () => {
           </p>
           <img src={heroBG} alt="" />
         </div>
-        <Marquee />
+        {/* <Marquee /> */}
       </div>
       <div className="card-container">
         <h3>When creative thinking meets technology</h3>
